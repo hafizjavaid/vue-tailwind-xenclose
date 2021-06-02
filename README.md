@@ -1,8 +1,4 @@
-# zenclose
 
-rebaselining this project with proper docs, linting, unit testing, e2e testing, and more
-
-TODO: add express backend, add postgres database
 
 ## Project setup
 ```
@@ -28,11 +24,3 @@ npm run test:unit
 ```
 npm run test:e2e
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
