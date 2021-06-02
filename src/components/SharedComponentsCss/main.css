@@ -1,0 +1,64 @@
+.slideYup-enter-active {
+    transition: all ease 0.5s;
+}
+.slideYup-enter {
+    opacity: 0;
+    transform: translateY(30px);
+}
+.slideYup-enter-to {
+    opacity: 1;
+    transform: translateY(-30px);
+}
+.fade-enter-active,
+.fade-leave-active{
+    transition: all ease 0.5s;
+}
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter-to {
+    opacity: 1;
+}
+.fade-leave {
+    opacity: 1;
+}
+.fade-leave-to {
+    opacity: 0;
+}
+.Question {
+    border-color: hsl(264, 47%, 18%);
+    color: hsl(264, 47%, 18%);
+    font-family: 'Graphik sans';
+    font-weight: 700  ;
+    gap: normal;
+    letter-spacing: -1.07828px;
+    line-height: 48.4932px;
+    @apply xs:text-3xl;
+    @apply lg:text-3xl;
+    @apply md:text-3xl;
+    @apply sm:text-2xl;
+    @apply xl-mid:text-3xl;
+    @apply xl:text-4xl;
+    @apply 2xl:text-4xl;
+    @apply txt-xl:text-5xl;
+}
+input {
+    font-size: 22px;
+}
+.navigationButton {
+    width:150px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: "Graphik", sans-serif;
+    color: white;
+}
+.login-with-google {
+    width:220px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: "Graphik", sans-serif;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
