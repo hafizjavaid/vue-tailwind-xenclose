@@ -135,16 +135,12 @@ export default {
     return {
       links: [
         {
-          text: 'Title insurance',
+          text: 'Home',
           link: '/',
         },
         {
-          text: 'Contact Us',
-          link: '/',
-        },
-        {
-          text: 'Resources',
-          link: '/',
+          text: 'About Us',
+          link: '/about',
         },
       ],
       open: false,
